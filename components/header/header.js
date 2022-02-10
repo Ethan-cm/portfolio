@@ -4,13 +4,13 @@ import React from "react";
 
 const Header = () =>(
 
-<wrapper>
+<>
 <topnavbar>
 
 <>Testing</>
 
 </topnavbar>
-</wrapper>
+</>
 
 )
 

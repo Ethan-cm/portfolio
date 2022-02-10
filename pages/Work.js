@@ -15,6 +15,7 @@ export default function Work() {
         <title>Work landing page</title>
         <link rel="icon" href="/tom.jpg" />
       </Head>
+
       <h1>Work Page</h1>
 
       <div className='pdfcontainer'>

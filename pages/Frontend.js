@@ -1,7 +1,8 @@
- import Link from 'next/link'
+import Link from 'next/link'
 import Head from 'next/head'
 import Layout from '../components/layout'
 import Image from 'next/image'
+import praccomp from '../'
 
 export default function frontend() {
   return (
@@ -47,10 +48,9 @@ export default function frontend() {
       <p>This website has been built entirely by myself using React, Node.js and Next.js</p>
 
       <p>If you want to see some example code, a github link to the source code for this website
-        is 
-      </p>
+        is   </p>
       
-
+      
 
       <button type='button'>
         <h2>

@@ -1,10 +1,9 @@
-import Head from 'next/head'
-import Link from 'next/link'
-import React from 'react'
-import Image from 'next/image'
-import Portrait from '../public/Portrait_scaled.png'
-import styled, {css} from "styled-components"
-
+import Head from 'next/head';
+import Link from 'next/link';
+import React from 'react';
+import Image from 'next/image';
+import Portrait from '../public/Portrait_scaled.png';
+import styled, {css} from "styled-components";
 
 export default function Home() {
   return (
@@ -16,6 +15,8 @@ export default function Home() {
 
     <div className="Portrait">
     
+
+
     </div>
       <main>
         <h1 className="Name">
@@ -60,24 +61,28 @@ export default function Home() {
            </Link>
         </h2>
 
-        <Button primary>test</Button>
+        <h2>
+          <Link href="/practice"> practice </Link>
+        </h2>
 
-
+      <Button/>
 
       </main>
   </div>
   )}
       
-const Button = styled.button`
-background: teal;
-border-radius: 10px;
-border: 2px solid palevioletred;
-color: aquamarine;
-margin: 0 1em;
-padding: 0.25em 1em;
+  const Button = styled.button`
+  background: tomato;
+  border-radius: 3px;
+  border: 2px solid palevioletred;
+  color: palevioletred;
+  margin: 0 1em;
+  padding: 2em 3em;
 
-${props => props.primary && css`
-    background: palevioletred;
-    color: white;
-  `}
+  ${props =>
+    props.primary &&
+    css`
+      background: palevioletred;
+      color: white;
+    `};
 `
