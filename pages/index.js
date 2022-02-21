@@ -4,7 +4,7 @@ import React from 'react';
 import Image from 'next/image';
 import Portrait from '../public/Portrait_scaled.png';
 import styled, {css} from "styled-components";
-import {grid} from '../components/grid/grid.js'
+import {indexgrid, Nav, gridA, gridB, gridC, gridD, main, bottom} from '../components/grid/grid.js'
 
 export default function Home() {
   return (
