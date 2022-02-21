@@ -1,7 +1,6 @@
 import React from 'react'; 
 import ReactDOM from 'react-dom';
 
-
 class Containerbutton extends React.Component {
         constructor(props){
                 super(props);
@@ -22,7 +21,7 @@ class Containerbutton extends React.Component {
         return(
         <p>
                 test {}
-                <button type="button" onClick={this.Buttonchangetext}> {this.state.buttoncontext} </button>
+                <Butano type="button" onClick={this.Buttonchangetext}> {this.state.buttoncontext} </Butano>
                 <Navbar newcon={this.state.buttoncontext}/>             
         </p>//navbar line WIP not working properly, cant figure out how to pass data coherently
         )}
@@ -67,3 +66,4 @@ function Naveducation () {//redirect button for education
 }
 
 export default Containerbutton;
+

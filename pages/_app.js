@@ -1,6 +1,7 @@
 import App from 'next/app'
 import { ThemeProvider } from 'styled-components'
 import GlobalStyle from './theme/globalStyles'
+import Navbar from '../components/Navbar/Navbar.js'
 
 const theme = {
   colors: {
@@ -16,6 +17,7 @@ export default class MyApp extends App {
 
       <ThemeProvider theme={theme}>
         <GlobalStyle/>
+        <Navbar/>
         <Component {...pageProps} />
       </ThemeProvider>
 

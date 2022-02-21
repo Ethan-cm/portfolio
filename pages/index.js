@@ -4,6 +4,7 @@ import React from 'react';
 import Image from 'next/image';
 import Portrait from '../public/Portrait_scaled.png';
 import styled, {css} from "styled-components";
+import {grid} from '../components/grid/grid.js'
 
 export default function Home() {
   return (
@@ -13,12 +14,9 @@ export default function Home() {
         <link rel="icon" href="/tom.jpg" />
       </Head>
 
-    <div className="Portrait">
-    
-
-
-    </div>
       <main>
+      <grid>
+
         <h1 className="Name">
             Ethan Cinq-Mars
         </h1>
@@ -60,29 +58,9 @@ export default function Home() {
            <a>Work Experience</a>
            </Link>
         </h2>
-
-        <h2>
-          <Link href="/practice"> practice </Link>
-        </h2>
-
-      <Button/>
-
+  
+      </grid>
       </main>
   </div>
   )}
       
-  const Button = styled.button`
-  background: tomato;
-  border-radius: 3px;
-  border: 2px solid palevioletred;
-  color: palevioletred;
-  margin: 0 1em;
-  padding: 2em 3em;
-
-  ${props =>
-    props.primary &&
-    css`
-      background: palevioletred;
-      color: white;
-    `};
-`

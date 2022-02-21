@@ -2,7 +2,6 @@ import Link from 'next/link'
 import Head from 'next/head'
 import Layout from '../components/layout'
 import Image from 'next/image'
-import praccomp from '../'
 
 export default function frontend() {
   return (
