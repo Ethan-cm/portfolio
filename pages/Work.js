@@ -6,19 +6,20 @@ import Image from 'next/image'
 import { pdfjs } from 'react-pdf'
 import PDFViewer from '../components/pdf-viewer'
 
-
-
 export default function Work() {
   return (
-    <>
+    <>  
+ 
+
       <Head>
         <title>Work landing page</title>
-        <link rel="icon" href="/tom.jpg" />
+        <link rel="icon" href="/tom.jpg"/>
       </Head>
+
 
       <h1>Work Page</h1>
 
-      <div className='pdfcontainer'>
+
 
       <PDFViewer/>
 
@@ -28,8 +29,7 @@ export default function Work() {
         </Link>
       </button>
 
-      </div>
-      
+
       <button type='button' className='prettybutton'>
         <h2>
           <Link href="/">

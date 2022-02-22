@@ -6,11 +6,9 @@ import {Indexgrid, Nav, GridA, GridB, GridC, GridD, Main, Bottom} from '../compo
 
 export default function Practice(){
 return(
-<>
-<Indexgrid>test
 
-<Nav>nav</Nav>
-<Main>main</Main>
+<Indexgrid>
+    <Nav></Nav>
 <GridA>grida</GridA>
 <GridB>gridb</GridB>
 <GridC>gridC</GridC>
@@ -19,7 +17,5 @@ return(
 
 </Indexgrid>
 
-</>
-)}
 
-//export default Practice;
+)};

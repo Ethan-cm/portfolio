@@ -4,19 +4,18 @@ import React from 'react';
 import Image from 'next/image';
 import Portrait from '../public/Portrait_scaled.png';
 import styled, {css} from "styled-components";
-import {indexgrid, Nav, gridA, gridB, gridC, gridD, main, bottom} from '../components/grid/grid.js'
+import {Indexgrid, Nav, GridA, GridB, GridC, GridD, Main, Bottom} from '../components/grid/grid.js'
+
 
 export default function Home() {
   return (
-    <div className="container">
+    <Indexgrid>
       <Head>
         <title>Ethan CM Portfolio</title>
         <link rel="icon" href="/tom.jpg" />
       </Head>
 
-      <main>
-      <grid>
-
+        <Main>
         <h1 className="Name">
             Ethan Cinq-Mars
         </h1>
@@ -34,33 +33,43 @@ export default function Home() {
         height={600}
         />
         </h3>
+        </Main>
 
-        <h2 className="Divbox">
-            <Link href="/Projects">
-              <a> Projects </a>
-            </Link>
-        </h2>
+        <GridA>
+          <h2>
+              <Link href="/Projects">
+                <a> Projects </a>
+              </Link>
+          </h2>
+        </GridA>
 
-        <h2 className='Divbox'>
+        <GridB>
+        <h2>
           <Link href= "/Frontend">
             <a>Front End development</a>
           </Link>
         </h2>
+        </GridB>
 
-        <h2 className="Divbox">
+        <GridC>
+        <h2>
             <Link href="/Education">
            <a>Education</a>
            </Link>
         </h2>
+        </GridC>
 
-        <h2 className="Divbox">
+        <GridD>
+        <h2>
             <Link href="/Work">
            <a>Work Experience</a>
            </Link>
         </h2>
+        </GridD>
+
+        <Bottom>BOTTOM TEXT</Bottom>
   
-      </grid>
-      </main>
-  </div>
+      
+  </Indexgrid>
   )}
       
