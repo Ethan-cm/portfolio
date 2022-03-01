@@ -8,14 +8,13 @@ export default function Practice(){
 return(
 
 <Indexgrid>
-    <Nav></Nav>
+<Nav>Nav</Nav>
+<Main>main</Main>
 <GridA>grida</GridA>
 <GridB>gridb</GridB>
 <GridC>gridC</GridC>
 <GridD>gridD</GridD>
 <Bottom>bottom</Bottom>
-
 </Indexgrid>
-
 
 )};
