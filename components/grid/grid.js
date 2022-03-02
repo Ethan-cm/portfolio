@@ -25,6 +25,7 @@ padding-top: 0px;
 export const Nav = styled.nav`
 grid-area: nav;
 background-color: Grey;
+padding: 0px 0px 0px 0px;
 `;
 
 export const GridA = styled.div`
@@ -47,7 +48,6 @@ padding: 15px 15px 15px 15px;
 export const GridD = styled.div`
 grid-area: gridD;
 background: GreenYellow;
-color: white;
 padding: 15px 15px 15px 15px;
 `;
 export const Bottom = styled.div`

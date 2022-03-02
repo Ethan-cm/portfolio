@@ -15,6 +15,8 @@ export default function Home() {
         <link rel="icon" href="/tom.jpg" />
       </Head>
 
+        <Nav>NAVIGATION</Nav>
+
         <Main>
         <h1 className="Name">
             Ethan Cinq-Mars
@@ -67,7 +69,11 @@ export default function Home() {
         </h2>
         </GridD>
 
-        <Bottom>BOTTOM TEXT</Bottom>
+        <Bottom>
+          <Link href="/practice">
+            <a>practice</a>
+          </Link>
+        </Bottom>
   
       
   </Indexgrid>
